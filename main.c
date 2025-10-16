@@ -2,16 +2,14 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[])
-{ int flag = 1;
-  int y ;
-  
-  while(flag != 0)
-  { //int y;
-    y=3;
-    flag=0;
-  }
-  y=4;
+{ int i;
 
+  for(i=0; i<5; i++)
+  {
+           int temp = 1;
+           printf("temp = %d\n", temp);
+           temp++;
+  }
   
   system("PAUSE");	
   return 0;
